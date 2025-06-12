@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registro | drones.cr</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2 { font-family: 'Montserrat', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <header class="bg-gray-900 text-white py-6 text-center shadow-md">
+    <h1 class="text-4xl font-bold">Registro en drones.cr</h1>
+    <p class="text-lg mt-2">Conectamos misiones con pilotos certificados</p>
+  </header>
+
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto p-8" data-aos="fade-up">
+    <!-- Registro para Clientes -->
+    <div class="bg-white p-6 rounded shadow">
+      <h2 class="text-2xl font-bold mb-4 text-blue-700">¿Necesitas un piloto?</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Nombre completo" class="w-full border border-gray-300 p-3 rounded" required />
+        <input type="email" placeholder="Correo electrónico" class="w-full border border-gray-300 p-3 rounded" required />
+        <input type="text" placeholder="Teléfono" class="w-full border border-gray-300 p-3 rounded" />
+        <textarea placeholder="Descripción de tu necesidad" class="w-full border border-gray-300 p-3 rounded h-32"></textarea>
+        <button class="w-full bg-green-600 text-white font-bold py-3 rounded hover:bg-green-700">Solicitar piloto</button>
+      </form>
+    </div>
+
+    <!-- Registro para Pilotos -->
+    <div class="bg-white p-6 rounded shadow">
+      <h2 class="text-2xl font-bold mb-4 text-green-700">¿Eres piloto certificado?</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Nombre completo" class="w-full border border-gray-300 p-3 rounded" required />
+        <input type="email" placeholder="Correo electrónico" class="w-full border border-gray-300 p-3 rounded" required />
+        <input type="text" placeholder="Teléfono de contacto" class="w-full border border-gray-300 p-3 rounded" />
+        <input type="text" placeholder="Número de certificación DGAC" class="w-full border border-gray-300 p-3 rounded" />
+        <textarea placeholder="Experiencia, zonas donde vuelas, tipo de servicios" class="w-full border border-gray-300 p-3 rounded h-32"></textarea>
+        <button class="w-full bg-blue-600 text-white font-bold py-3 rounded hover:bg-blue-700">Unirme como piloto</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="text-center p-6 bg-gray-900 text-white mt-12">
+    &copy; 2025 drones.cr | Conectamos cielos con ideas
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
