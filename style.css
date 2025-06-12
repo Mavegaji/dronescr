@@ -1,0 +1,50 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #212121;
+    background: #f4f7fa;
+}
+header {
+    background: url('hero.jpg') center/cover no-repeat;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+.cta-buttons .btn {
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.green { background-color: #009E49; color: white; }
+.blue { background-color: #0057B7; color: white; }
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+.services li {
+    margin: 10px 0;
+}
+footer {
+    background: #212121;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+input, textarea {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+button {
+    padding: 10px 20px;
+}
