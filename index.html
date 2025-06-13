@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>drones.cr | Tu misión, nuestro vuelo</title>
+  <meta name="description" content="Conecta con pilotos de drones certificados en Costa Rica para tus proyectos de fotografía, inspección y más." />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -38,7 +39,7 @@
 
   <!-- Hero con video -->
   <header class="relative h-screen flex items-center justify-center text-center text-white">
-    <video autoplay muted loop class="hero-bg">
+    <video autoplay muted loop class="hero-bg" title="Vídeo promocional de drones.cr" aria-label="Video promocional">
       <source src="assets/hero.mp4" type="video/mp4">
     </video>
     <div class="overlay"></div>
@@ -52,6 +53,7 @@
 
   <!-- Navegación sticky -->
   <nav class="sticky top-0 bg-white shadow z-50 p-4 text-center">
+    <a href="nosotros.html" class="mx-4 text-blue-700 font-semibold hover:underline">Nosotros</a>
     <a href="#servicios" class="mx-4 text-blue-700 font-semibold hover:underline">Servicios</a>
     <a href="#testimonios" class="mx-4 text-blue-700 font-semibold hover:underline">Testimonios</a>
     <a href="#contacto" class="mx-4 text-blue-700 font-semibold hover:underline">Contacto</a>
@@ -104,5 +106,6 @@
   <!-- AOS init -->
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>AOS.init();</script>
+  <script src="script.js"></script>
 </body>
 </html>
